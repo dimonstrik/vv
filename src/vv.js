@@ -10,9 +10,6 @@ function App() {
         <p> 
           Весело <code>и</code> вкусно?
         </p>
-        <div>
-          <audio src={mp3} controls autoPlay loop/>
-        </div>
         <a
           className="App-link"
           href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D1%88%D0%B8%D0%BD%D0%B3"
@@ -21,6 +18,9 @@ function App() {
         >
           I'm lovin' it
         </a>
+        <div>
+          <audio src={mp3} controls autoPlay loop/>
+        </div>
       </header>
     </div>
   );
